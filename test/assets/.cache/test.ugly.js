@@ -1,0 +1,1 @@
+var test=function(){var a="foo"}
