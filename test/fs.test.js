@@ -11,10 +11,10 @@ module.exports = {
   "Files are being served": function() {
     assert.response(
       app, {
-        url: '/test.js', timeout: 500
+        url: '/no-dir/test.js', timeout: 500
       }, function(res) {
-        console.log("Asserting 'test.js' body is 'var test=function(){var a=\"foo\"}'");
-        assert.ok(res.body === 'var test=function(){var a="foo"}', 'Test assert.response() callback');
+        console.log("Asserting missing file returns a 404");
+        assert.ok(res.statusCode === 404);
       });
   }
 };
