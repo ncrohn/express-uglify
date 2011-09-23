@@ -3,7 +3,7 @@ var assert = require("assert"),
 
 module.exports = {
   'Validity': function() {
-
+    console.log("Asserting 1 equals 1");
     assert.eql(1, 1);
   }
 };
