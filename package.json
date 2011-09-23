@@ -2,19 +2,23 @@
   "name": "express-uglify",
   "description": "Express.js view engine plugin for Uglify JS",
   "version": "0.1.1",
-  "homepage": "",
   "author": "Nick Crohn <ncrohn@me.com> (http://www.github.com/ncrohn)",
+  "main": "./index",
   "directories": {
     "lib":"./lib"
   },
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/ncrohn/express-uglify"
+  },
   "engines": {
-    "node": ">= 0.2.0"
+    "node": ">=0.4.8"
   },
   "dependencies": {
-    "uglify-js": ">= 1.0.2",
-    "connect": ">= 1.0.0"
+    "uglify-js": ">=1.0.2",
+    "connect": ">=1.0.0"
   },
   "devDependencies": {
-    "express": "2.3.11"
+    "express": ">=2.3.11"
   }
 }
