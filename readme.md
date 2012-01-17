@@ -14,6 +14,6 @@ The Express Uglify middleware intercepts JS file calls and runs them through the
 
     app.use(require('express-uglify').middleware({ src: __dirname + '/public' }));
 
-
+Travis-CI Build Status: [![Build Status](https://secure.travis-ci.org/ncrohn/express-uglify.png)](http://travis-ci.org/ncrohn/express-uglify)
 
 
