@@ -1,4 +1,5 @@
 # Express Uglify JS #
+[![Build Status](https://secure.travis-ci.org/ncrohn/express-uglify.png)](http://travis-ci.org/ncrohn/express-uglify)
 
 ## About ##
 This package is designed to provide a middleware solution for on the fly compression of JavaScript files. Code for embedding stays identical so switching between development and production states is as simple as changing the config for express.
@@ -15,6 +16,5 @@ The Express Uglify middleware intercepts JS file calls and runs them through the
     app.use(require('express-uglify').middleware({ src: __dirname + '/public' }));
 
 ## MIT LICENSE
-
 
 
