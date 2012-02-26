@@ -14,6 +14,7 @@ The Express Uglify middleware intercepts JS file calls and runs them through the
 
     app.use(require('express-uglify').middleware({ src: __dirname + '/public' }));
 
+## MIT LICENSE
 
 
 
