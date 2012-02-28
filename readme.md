@@ -13,7 +13,11 @@ The Express Uglify middleware intercepts JS file calls and runs them through the
 
 ## Usage:
 
-    app.use(require('express-uglify').middleware({ src: __dirname + '/public' }));
+    var expressUglify = require('express-uglify');
+    app.use(expressUglify.middleware({ 
+      src: __dirname + '/public',
+      logLevel: 'info'
+    }));
 
 ## MIT LICENSE
 
