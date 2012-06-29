@@ -1,6 +1,9 @@
 # Express Uglify JS #
 [![Build Status](https://secure.travis-ci.org/ncrohn/express-uglify.png)](http://travis-ci.org/ncrohn/express-uglify)
 
+## Notice ##
+With the release of Node 0.8.0 in the 0.3.0 release of express-uglify support has been dropped for Node 0.4.x and below. If you are still using Node 0.4.x please continue to use 0.2.x and below of express-uglify.
+
 ## About ##
 This package is designed to provide a middleware solution for on the fly compression of JavaScript files. Code for embedding stays identical so switching between development and production states is as simple as changing the config for express.
 
