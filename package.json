@@ -1,7 +1,7 @@
 {
   "name": "express-uglify",
   "description": "Express.js view engine plugin for Uglify JS",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "author": "Nick Crohn <ncrohn@me.com> (http://www.github.com/ncrohn)",
   "main": "./index",
   "directories": {
@@ -12,7 +12,7 @@
     "url": "http://github.com/ncrohn/express-uglify"
   },
   "engines": {
-    "node": ">=0.4.8"
+    "node": ">=0.6.x"
   },
   "dependencies": {
     "uglify-js": ">=1.0.2",
