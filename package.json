@@ -16,7 +16,7 @@
   },
   "dependencies": {
     "uglify-js": "~1",
-    "winston": "0.5.10"
+    "winston": "0.7.2"
   },
   "devDependencies": {
     "express": ">=2.3.11",
